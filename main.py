@@ -17,7 +17,7 @@ def str_to_unicode(string):
     return new_str
 
 
-def runapi():
+def main():
     print("本工具由滑稽制作")
     number = input("请输入功能序号\n1.加密\n2.解密\n")
     if number == "1":
@@ -32,4 +32,4 @@ def runapi():
 
 
 if __name__ == '__main__':
-    runapi()
+    main()
